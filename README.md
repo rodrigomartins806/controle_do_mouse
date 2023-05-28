@@ -50,7 +50,14 @@ pip install -r requirements.txt
 py controle_mouse.py
 ```
 Se tudo der certo ser aberto uma tela para o controle do seu mouse, deve ser parecido com a imagem abaixo:
+[<img src="https://github.com/rodrigomartins806/controle_do_mouse/blob/main/imagens/Controle%20do%20Mouse.png" width=115>]
 
+4. Para executar o segundo codigo pode executar o comando abaixo.
+```
+py controle_volume_maos.py
+```
+Se tudo der certo você sera capaz de controlar o volume do seu pc usando os dedos indicador e polegar conforme demonstrado na imagem abaixo:
+[<img src="https://github.com/rodrigomartins806/controle_do_mouse/blob/main/imagens/Controle%20do%20Mouse.png" width=115>]
 
 
 
