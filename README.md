@@ -9,22 +9,20 @@
 <p>
 
 ---
-|Descrição   | Versão  | Supported          |
-| ---------- | ------- | ------------------ |
-| Python     | 3.9     | :white_check_mark: |
-| VScode     | 1.xx    | :white_check_mark: |
-| OpenCV     |         | :white_check_mark: |
-| mediapipe  |         | :white_check_mark: |
-| pyautogui  |         | :white_check_mark: |
+|Descrição     | Versão  | Supported          |
+| ----------   | ------- | ------------------ |
+| Python       | 3.9     | :white_check_mark: |
+| VScode       | 1.xx    | :white_check_mark: |
+| OpenCV-python| 4.5.3   | :white_check_mark: |
+| mediapipe    | 0.8.7.1 | :white_check_mark: |
+| pyautogui    | 0.9.53  | :white_check_mark: |
 ---
 
 
 </p>
 
-<summary><h4>Detalhe</h4></summary>
 
-
-### **Resumo:**
+### **Detalhe:**
 No primeiro exemplo temos o codigo controle_mouse.py, com este codigo você devera ser capaz de controlar o mousa utilizando apenas os movimentos da mao, quando juntar o dedo polegar com o de indicador ele ira simular o click do mouse. neste codigo vamos utilizar as bibliotecas do mediapipe e tambem do pyautogui que ira movimentar o ponteiro na tela.
 
 No segundo exemplo de codigo você sera capaz de ajustar o volume apenas com o movimento do seu dedo indicador com o seu polegar
