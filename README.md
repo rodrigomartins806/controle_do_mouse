@@ -1,6 +1,6 @@
 # Controle do Mouse e Volume usando as Mãos
 
- Neste repositorio você encontrara dois exemplos de codigos para controle do mouse e volume do seu pc, utilizando os movimentos das mãos.
+Este repositório contém dois exemplos de códigos para controlar o mouse e o volume do seu computador utilizando os movimentos das mãos.
 
 
 <br>
@@ -23,46 +23,45 @@
 
 
 ### **Detalhe:**
-No primeiro exemplo temos o codigo controle_mouse.py, com este codigo você devera ser capaz de controlar o mousa utilizando apenas os movimentos da mao, quando juntar o dedo polegar com o de indicador ele ira simular o click do mouse. neste codigo vamos utilizar as bibliotecas do mediapipe e tambem do pyautogui que ira movimentar o ponteiro na tela.
+No primeiro exemplo, temos o código controle_mouse.py, que permite controlar o mouse utilizando apenas os movimentos da mão. Quando você juntar o dedo polegar com o indicador, o código simulará um clique do mouse. Neste exemplo, utilizamos as bibliotecas Mediapipe e PyAutoGUI, que movimentam o ponteiro na tela.
 
-No segundo exemplo de codigo você sera capaz de ajustar o volume apenas com o movimento do seu dedo indicador com o seu polegar
+No segundo exemplo de código, você será capaz de ajustar o volume apenas com o movimento do dedo indicador em relação ao polegar.
 
 
 ### **Executando o código para testes:**
 
-Executando o projeto em ambiente local, deve seguir as boas praticas e criar um ambiente separado para instalar a suas bibliotecas e rodar o seu codigo, este processo não sera abordado aqui mas pode dar uma olhada na documentação [virtual environments](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+Para executar o projeto em ambiente local, siga as boas práticas e crie um ambiente virtual separado para instalar as bibliotecas e executar o código. O processo de criação do ambiente virtual não será abordado aqui, mas você pode consultar a documentação sobre  [virtual environments](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 
 1. Clone este diretório
 ```
 git clone https://github.com/rodrigomartins806/controle_do_mouse.git
 ```
-2. crie um ambiente de desenvolvimento utilizando venv ou virtualenv
+2. Crie um ambiente de desenvolvimento utilizando o venv ou virtualenv.
 
-3. execute o comando de instalação dos pacotes conforme demonstrado abaixo
-
+3. Execute o comando de instalação das dependências através do seguinte comando:
 ```
 pip install -r requirements.txt
 ```
-4. Para executar o codigo pode executar o comando abaixo.
+4. Para executar o código de controle do mouse, utilize o comando a seguir:
 ```
 py controle_mouse.py
 ```
-Se tudo der certo ser aberto uma tela para o controle do seu mouse, deve ser parecido com a imagem abaixo:
+Se tudo ocorrer corretamente, uma janela para o controle do mouse será aberta, conforme mostrado na imagem abaixo:
 <br>
 <img src="https://github.com/rodrigomartins806/controle_do_mouse/blob/main/imagens/Controle%20do%20Mouse.png" width=515>
 
-4. Para executar o segundo codigo pode executar o comando abaixo.
+5. Para executar o segundo código, que controla o volume, utilize o comando abaixo:
 ```
 py controle_volume_maos.py
 ```
-Se tudo der certo você sera capaz de controlar o volume do seu pc usando os dedos indicador e polegar conforme demonstrado na imagem abaixo:
+Se tudo ocorrer corretamente, você será capaz de controlar o volume do seu computador utilizando os dedos indicador e polegar, como mostrado na imagem abaixo:
 <br>
 <img src="https://github.com/rodrigomartins806/controle_do_mouse/blob/main/imagens/Controle%20do%20Volume.png" width=515>
 
 
 
 </p>
-<p>Este e apenas um exemplo de utilização das bibliotecas do OpenCV e mediapipe para fins de estudos.</p>
+<p>Este é apenas um exemplo de utilização das bibliotecas OpenCV e Mediapipe, desenvolvido para fins de estudo.</p>
 
 
 
