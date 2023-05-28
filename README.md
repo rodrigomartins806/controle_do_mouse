@@ -21,7 +21,7 @@
 
 </p>
 
-<details><summary><h4>Detalhe</h4></summary>
+<summary><h4>Detalhe</h4></summary>
 
 
 ### **Resumo:**
@@ -45,15 +45,20 @@ git clone https://github.com/rodrigomartins806/controle_do_mouse.git
 ```
 pip install -r requirements.txt
 ```
-4. Para executar o codigo pode executar o comando abaixo
+4. Para executar o codigo pode executar o comando abaixo.
+```
+py controle_mouse.py
+```
+Se tudo der certo ser aberto uma tela para o controle do seu mouse, deve ser parecido com a imagem abaixo:
+
 
 
 
 </p>
 <p>Este e apenas um exemplo de utilização das bibliotecas do OpenCV e mediapipe para fins de estudos.</p>
-</details>
 
 
-## Desenvolvedores
+
+## Desenvolvedor
 
 [<img src="https://avatars.githubusercontent.com/u/12385299?s=400&u=d146fdf8d2cec9e85473a80d696b1ee0f225790a&v=4" width=115><br><sub>Rodrigo Martins</sub>](https://github.com/rodrigomartins806)<br>
